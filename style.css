@@ -1,0 +1,14 @@
+html, body {
+  background-color: rgb(30, 30, 30);
+  height: 100%;
+  margin: 0;
+  overflow-y: hidden;
+  padding: 0;
+  position: fixed;
+}
+canvas {
+  display: block;
+}
+html::-webkit-scrollbar {
+    width: 0px; /* For Chrome, Safari, and Opera */
+}
